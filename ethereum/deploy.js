@@ -4,9 +4,9 @@ const compiledFactory=require('./build/CampaignFactory.json');
 
 
 const provider = new HDWalletProvider(
-  '',
+  'your 12 digit mnenomic phrase',
   // remember to change this to your own phrase!
-  ''
+  'Your infura api key '
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
