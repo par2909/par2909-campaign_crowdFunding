@@ -4,9 +4,9 @@ const compiledFactory=require('./build/CampaignFactory.json');
 
 
 const provider = new HDWalletProvider(
-  'army toward above mad autumn circle walk grass economy nurse satoshi wood',
+  '',
   // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/5162642136b24e30bec4b880556518b1'
+  ''
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
